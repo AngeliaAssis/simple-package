@@ -1,27 +1,28 @@
-# package_name
+# package_banking_operations
 
 Description. 
-The package package_name is used to:
-	- 
-	-
+The package package_banking_operations is used to:
+	- simulate a banking system
+	
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install package_name
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install package_banking_operations
 
 ```bash
-pip install package_name
+pip install package_banking_operations
 ```
 
 ## Usage
 
 ```python
-from package_name import file1_name
-file1_name.my_function()
+from package_banking_operations import file1_operations
+
+file1_operations.my_function()
 ```
 
 ## Author
-My_name
+Angelia Assis
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
