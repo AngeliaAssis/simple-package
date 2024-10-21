@@ -3,8 +3,6 @@ from setuptools import setup, find_packages
 with open("README.md", "r") as f:
     page_description = f.read()
 
-with open("requirements.txt") as f:
-    requirements = f.read().splitlines()
 
 setup(
     name="package_banking_operations",
@@ -13,8 +11,7 @@ setup(
     description="Pacote de processamento de operações bancárias básicas",
     long_description=page_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/AngeliaAssis/simple-package"
+    url="https://github.com/AngeliaAssis/simple-package",
     packages=find_packages(),
-    install_requires=requirements,
     python_requires='>=3.8',
 )
